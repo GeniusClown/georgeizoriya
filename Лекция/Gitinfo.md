@@ -27,7 +27,4 @@ Develop-разработка – Состоит из веток feature.
 
 Локальный репозиторий – компьютер
 Удаленный репозиторий – сервер, интернет
-
-
-
-
+![how-to-get-svn-remote-repository-url](https://user-images.githubusercontent.com/97594452/150105269-c2540c73-9bad-450e-b929-b15f4be31352.png)
