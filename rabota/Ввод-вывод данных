@@ -38,3 +38,33 @@ c = input()
 print(c)
 print(b)
 print(a)
+
+2.3 Параметры sep и end
+5/14 шаг:
+print('I', 'like', 'Python', sep='***')
+6/14 шаг:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
