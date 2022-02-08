@@ -43,19 +43,47 @@ print(a)
 5/14 шаг:
 print('I', 'like', 'Python', sep='***')
 6/14 шаг:
+a = input()
+b, c, f = input(), input(), input()
+print(b, c, f, sep=a)
+7/14 шаг:
+print("Привет, " + input(), end='!')
 
-
-
-
-
-
-
-
-
-
-
-
-
+2.4 Целочисленная арифметика. Часть 1
+5/13 шаг:
+num1 = int(input())
+print(num1)
+print(num1 + 1)
+print(num1 + 2) 
+6/13 шаг:
+a, b ,c = int(input()), int(input()), int(input())
+print(a + b + c)
+7/13 шаг:
+a = int(input())
+print('Объём =', a**3)
+print('Площадь полной поверхности =', 6*a**2)
+8/13 шаг:
+a = int(input())
+b = int(input())
+print(3*((a+b)**3) + 275*b**2 - 127*a - 41)
+9/13 шаг:
+a = int(input())
+print("Следующее за числом", a, "число:", a+1)
+print("Для числа", a, "предыдущее число:", a-1)
+10/13 шаг:
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+print(3*(a+b+c+d))
+11/13 шаг:
+a, b = int(input()), int(input())
+print(f"{a} + {b} = {a+b}")
+print(f"{a} - {b} = {a-b}")
+print(f"{a} * {b} = {a*b}")
+12/13 шаг:
+a, b, c = int(input()), int(input()), int(input())
+print(a + b*(c-1))
+13/13 шаг:
+a = int(input())
+print(a, 2*a, 3*a, 4*a, 5*a, sep='---')
 
 
 
