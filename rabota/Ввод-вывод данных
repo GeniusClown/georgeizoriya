@@ -85,14 +85,28 @@ print(a + b*(c-1))
 a = int(input())
 print(a, 2*a, 3*a, 4*a, 5*a, sep='---')
 
+2.5 Целочисленная арифметика. Часть 2
+6/16 шаг:
+a = int(input())
+b = int(input())
+c = int(input())
+d = a * b**(c-1)
+print(d)
+7/16 шаг:
+print(int(input())//100)
+8/16 шаг:
+a, b = int(input()), int(input())
+print(b//a)
+print(b%a)
+9/16 шаг:
+n = int(input())
+s = -n // 2
+print(-s)
+10/16 шаг:
 
-
-
-
-
-
-
-
+11/16 шаг:
+a = int(input())
+print(f"{a} мин - это {a//60} час {a%60} минут.")
 
 
 
