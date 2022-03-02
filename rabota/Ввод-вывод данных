@@ -38,6 +38,7 @@ c = input()
 print(c)
 print(b)
 print(a)
+https://prnt.sc/B8Uhb16wzqZG
 
 2.3 Параметры sep и end
 5/14 шаг:
@@ -48,6 +49,7 @@ b, c, f = input(), input(), input()
 print(b, c, f, sep=a)
 7/14 шаг:
 print("Привет, " + input(), end='!')
+https://prnt.sc/CJePn_HG6m20
 
 2.4 Целочисленная арифметика. Часть 1
 5/13 шаг:
@@ -84,6 +86,7 @@ print(a + b*(c-1))
 13/13 шаг:
 a = int(input())
 print(a, 2*a, 3*a, 4*a, 5*a, sep='---')
+https://prnt.sc/t7GFDAXH61Eh
 
 2.5 Целочисленная арифметика. Часть 2
 6/16 шаг:
@@ -103,10 +106,44 @@ n = int(input())
 s = -n // 2
 print(-s)
 10/16 шаг:
-
+p = int(input())
+print((p-1) // 4 + 1)
 11/16 шаг:
 a = int(input())
 print(f"{a} мин - это {a//60} час {a%60} минут.")
+13/16 шаг:
+p = int(input())
+print("Сумма цифр =", p//100 + (p%100)//10 + p%10)
+print("Произведение цифр =", (p//100) * ((p%100)//10) * (p%10)) 
+14/16 шаг:
+p = int(input())
+c = p%10
+b = (p%100)//10
+a = p//100
+print(f"{a}{b}{c}")
+print(f"{a}{c}{b}")
+print(f"{b}{a}{c}")
+print(f"{b}{c}{a}")
+print(f"{c}{a}{b}")
+print(f"{c}{b}{a}")
+15/16 шаг:
+p = int(input())
+print("Цифра в позиции тысяч равна", p//1000)
+print("Цифра в позиции сотен равна",  (p%1000)//100)
+print("Цифра в позиции десятков равна", ((p%1000)%100)//10)
+print("Цифра в позиции единиц равна", (((p%1000)%100)%10))
+https://prnt.sc/CK1JqKTrqFhS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
