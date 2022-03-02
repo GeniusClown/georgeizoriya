@@ -1,0 +1,23 @@
+3.1 Часть 1
+https://prnt.sc/vqO2uzB07AVX
+3.2 Часть 2
+1/4 шаг:
+print('*****************')
+print('*               *')
+print('*               *')
+print('*****************')
+2/4 шаг:
+a = int(input())
+b = int(input())
+print(f"Квадрат суммы {a} и {b} равен {(a + b) ** 2}")
+print(f"Сумма квадратов {a} и {b} равна {a ** 2 + b ** 2}")
+3/4 шаг:
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+print(a ** b + c ** d)
+4/4 шаг:
+n = input()
+print(int(n)+int(n+n)+int(n+n+n))
+https://prnt.sc/IEDxo0He7MDs
